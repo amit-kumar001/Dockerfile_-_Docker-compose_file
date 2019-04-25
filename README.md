@@ -1,5 +1,8 @@
 # Dockerfile_-_Docker-compose_file
-## Docker-compose.yml
+## Docker-compose.yml  
+
+![Docker-file-compose](https://user-images.githubusercontent.com/47202519/56736107-f1b49b00-6784-11e9-8617-3fbd3aa38588.jpg)
+
 <ol>
 <li><strong>Version </strong></br>  
 Specifies the docker-Compose 'version:' and this version does't relate directly to the version of docker-compose that you have installed this is just a version of docker-compose file format that we wish to write. </li>
