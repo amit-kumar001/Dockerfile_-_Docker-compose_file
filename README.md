@@ -40,6 +40,7 @@ docker-compose up starts services in dependency order.</li>
 ports in the HOST:CONTAINER format, container build in container port and we can browse it in host port</li>
 <li><strong>Link</strong> </br> 
 Link this service to any other services in the Docker Compose file by specifying their names here.</li>
+</ol>
 
 ```
 db:
@@ -68,8 +69,10 @@ db:
         - main
 
 ```
-</ol>
+
+
 ## Dockerfile
+
 <ol>
 <li><strong>From</strong> </br>
  Name of the base image that used to start the process.</li>
