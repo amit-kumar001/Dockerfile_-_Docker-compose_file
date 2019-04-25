@@ -71,5 +71,29 @@ db:
 ```
 </ol>
 ## Dockerfile
+<ol>
+<li><strong>From</strong> </br> 
+ Name of the base image that used to start the process.</li>
+ 
+<li><strong>Run</strong>  </br> 
+It takes a command as its argument and runs it to form the image.</li>
 
+<li><strong>Add</strong> </br> 
+Add command gets two arguments a source and a destination. It basically copies the files from the source on the host into the container's own filesystem at the set destination. COPY and ADD are both Dockerfile instructions that use for similar purposes.</li>
+
+<li><strong>WORKDIR</strong> </br> 
+The WORKDIR directive is used to set where the command defined with CMD is to be executed.</li>
+
+<li><strong>ENTRYPOINT</strong> </br> 
+ENTRYPOINT argument sets the concrete default application that is used every time a container is created using the image.</li>
+
+<li><strong>ENV</strong>  </br> 
+ENV command is used to set the environment variables.</li>
+
+<li><strong>CMD</strong>  </br> 
+CMD can be used for executing a specific command within the container.</li>
+<li><strong>EXPOSE</strong> </br> 
+A specific port to enable networking between the container and the outside world.</li>
 </ol>
+
+
