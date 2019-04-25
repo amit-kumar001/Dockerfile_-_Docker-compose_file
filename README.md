@@ -1,5 +1,7 @@
 # Dockerfile_-_Docker-compose_file
 <ol>
+## Docker-compose.yml
+<ol>
 <li><strong>Version </strong></br>  
 Specifies the docker-Compose version: and this version does't relate directly to the version of docker-compose that you have installed this is just a version of docker-compose file format that we wish to write. </li>
 <li><strong>Services</strong></br>
@@ -39,7 +41,6 @@ docker-compose up starts services in dependency order.</li>
 ports in the HOST:CONTAINER format, container build in container port and we can browse it in host port</li>
 <li>Link </br> 
 Link this service to any other services in the Docker Compose file by specifying their names here.</li>
-</ol>
 
 ```
 db:
@@ -68,3 +69,7 @@ db:
         - main
 
 ```
+</ol>
+## Dockerfile
+
+</ol>
