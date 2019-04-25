@@ -27,7 +27,7 @@ Sets the image that will be used to build the container and also use existing do
 <li><strong>Build</strong> </br> 
 Specifies the location of the Dockerfile that will be used to build the container.</li>
 <li><strong>Name_of_service</strong> </br>  
-name_of_service is a keyword that used to define number of separate services.like:- db</li>
+name_of_service is a keyword that used to define number of separate services. like:- db and web</li>
 <li><strong>Restart </strong></br> 
 Tells the container to restart if the system restarts.</li>
 <li><strong>Volumes</strong></br> 
