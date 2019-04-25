@@ -2,7 +2,7 @@
 ## Docker-compose.yml
 <ol>
 <li><strong>Version </strong></br>  
-Specifies the docker-Compose version: and this version does't relate directly to the version of docker-compose that you have installed this is just a version of docker-compose file format that we wish to write. </li>
+Specifies the docker-Compose 'version:' and this version does't relate directly to the version of docker-compose that you have installed this is just a version of docker-compose file format that we wish to write. </li>
 <li><strong>Services</strong></br>
 This section defines the containers that will be started as a part of the Docker Compose instance.</li>
 <li><strong>Networks</strong> </br> 
