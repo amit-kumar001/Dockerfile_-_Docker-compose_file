@@ -1,7 +1,7 @@
 # Dockerfile_-_Docker-compose_file
 ## Docker-compose.yml  
 
-![Docker-file-compose](https://user-images.githubusercontent.com/47202519/56736107-f1b49b00-6784-11e9-8617-3fbd3aa38588.jpg)
+![600x400](https://user-images.githubusercontent.com/47202519/56736270-596ae600-6785-11e9-80d1-69e1ad8b3d2b.jpg)
 
 <ol>
 <li><strong>Version </strong></br>  
