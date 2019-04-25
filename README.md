@@ -98,4 +98,12 @@ CMD can be used for executing a specific command within the container.</li>
 A specific port to enable networking between the container and the outside world.</li>
 </ol>
 
+```
+FROM ubuntu:18.04
+COPY . /app
+RUN make /app
+CMD python /app/app.py
+
+```
+
 
