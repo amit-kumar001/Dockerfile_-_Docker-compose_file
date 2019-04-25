@@ -30,8 +30,6 @@ Specifies the location of the Dockerfile that will be used to build the containe
 name_of_service is a keyword that used to define number of separate services. like:- db and web</li>
 <li><strong>Restart </strong></br> 
 Tells the container to restart if the system restarts.</li>
-<li><strong>Volumes</strong></br> 
-Mounts a linked path on the host machine that can be used by the container</li>
 <li><strong>Environment</strong> </br>  
 Environment variables are available to processes running inside of Docker containers.</li>
 <li><strong>Depends_on </strong></br> 
