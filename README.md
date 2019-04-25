@@ -41,7 +41,8 @@ ports in the HOST:CONTAINER format, container build in container port and we can
 Link this service to any other services in the Docker Compose file by specifying their names here.</li>
 </ol>
 
-``db:
+```
+db:
       image: mysql
       restart: always
       environment:
